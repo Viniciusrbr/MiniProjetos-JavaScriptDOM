@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+body{
+    background-color: #153f99d0;
+}
+    
+main{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+    
+#casas{
+    /*display: flex; */
+    background-color: #031A4D;
+    padding: 20px;
+    border-radius: 10px ;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+    
+h1{
+    text-align: center;
+}
+     
+form > p{
+    margin: 15px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 4px;
+    border: 3px solid transparent;
+}
+    
+button:hover{
+    border: 3px solid black;
+}
+    
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+    gap: 10px;
+}
+    
+li{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+    
+li:hover{
+    border: 1px solid black;
+}
+    
+span{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+    
+li > p , button{
+    margin: 20px;
+}
+    
